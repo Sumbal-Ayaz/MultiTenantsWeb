@@ -9,12 +9,6 @@
 <form asp-action="SignUp" asp-controller="Account" method="post">
 
     <div class="form-group">
-        <label asp-for="UserName"></label>
-        <input asp-for="UserName" class="form-control" />
-        <span asp-validation-for="UserName" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
         <label asp-for="Email"></label>
         <input asp-for="Email" type="email" class="form-control" />
         <span asp-validation-for="Email" class="text-danger"></span>

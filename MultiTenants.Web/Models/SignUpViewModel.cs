@@ -4,9 +4,6 @@ namespace MultiTenants.Web.Models
 {
     public class SignUpViewModel
     {
-        [Required(ErrorMessage = "Username is required")]
-        [StringLength(50, ErrorMessage = "Username cannot exceed 50 characters")]
-        public string UserName { get; set; }
 
         [Required(ErrorMessage = "Email is required")]
         [EmailAddress(ErrorMessage = "Enter a valid email address")]

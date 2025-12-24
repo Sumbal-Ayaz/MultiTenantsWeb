@@ -19,11 +19,11 @@ namespace MultiTenants.Web.Controllers
                 return View(model);
             }
 
-            if (model.UserName == "User" && model.Email == "user@test.com")
+            if (model.Email == "user@test.com" && model.Password == "user123")
             {
                 return RedirectToAction("Index", "User");
             }
-            else if (model.UserName == "Admin" && model.Email == "admin@test.com")
+            else if (model.Email == "admin@test.com" && model.Password == "admin123")
             {
                 return RedirectToAction("Index", "Admin");
             }
