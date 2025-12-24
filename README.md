@@ -26,12 +26,6 @@ Authentication is currently implemented using **Identity Server**, and the solut
 - Dependency Injection
 - Async/Await
 
----
-
-## Architecture Overview
-
-
----
 
 ## Authentication
 
