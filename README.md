@@ -5,7 +5,7 @@ The project provides user-facing pages for CRUD operations and communicates with
 
 Authentication is currently implemented using **Identity Server**, and the solution is designed to support **JWT-based authentication** for API access in the future.
 
-API URL: [https://github.com/Sumbal-Ayaz/MultiTenantsWeb](https://github.com/MAsimShah/DotNetCoreWithIdentityServer4)
+API URL: [DotNetCoreWithIdentityServer4](https://github.com/MAsimShah/DotNetCoreWithIdentityServer4)
 ---
 
 ## Project Purpose
